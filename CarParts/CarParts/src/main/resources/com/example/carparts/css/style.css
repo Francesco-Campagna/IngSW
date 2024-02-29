@@ -1,0 +1,274 @@
+* {
+    -fx-font-family: 'Roboto';
+    -fx-fill: textColor;
+}
+
+.button {
+ -fx-text-fill: white;
+ -fx-background-color: buttonColor;
+ -fx-cursor: hand;
+}
+
+.button:hover {
+ -fx-background-color: backgroundButtonColor;
+}
+
+
+#searchButton: pressed {
+ -fx-scale-x: 0.95;
+ -fx-scale-y: 0.95;
+}
+
+#inserisciIlBuonoText {
+ -fx-fill: blacK;
+}
+
+#textUpgrade, #loginText{
+ -fx-fill: white;
+}
+
+#descrizioneText, #nomeText, #prezzoText, #venditoreText, #idProdottoText, #gestioneProdottiText, #disponibilitaText {
+
+}
+
+#upperPane {
+ -fx-background-color: upperBackgroundColor;
+}
+
+#totalAnchorPane, #anchorPaneManageProd {
+ -fx-background-color: backgroundColor;
+}
+
+#bottomPane {
+ -fx-background-color: BottomBackgroundColor;
+}
+
+#priceText {
+ -fx-fill: orange;
+}
+
+#loginButton{
+ -fx-font-size: 24px;
+}
+
+#loginButton: pressed {
+-fx-scale-x: 0.95;
+-fx-scale-y: 0.95;
+}
+
+#accessHbox:hover,#cartIcon:hover, #logoutImage:hover {
+  -fx-scale-x: 0.9;
+  -fx-scale-y: 0.9;
+  -fx-cursor: hand;
+
+}
+
+#carPartsIcon:hover{
+ -fx-cursor: hand; /*appare la mano quando il cursore ci va sopra*/
+}
+
+#textLogin:hover{
+ -fx-cursor: hand; /*appare la mano quando il cursore ci va sopra*/
+ -fx-font-size: 15px; /*Dimensione del carattere 16px per il testo personalizzato */
+}
+
+#textUpgrade:hover{
+  -fx-cursor: hand; /*appare la mano quando il cursore ci va sopra*/
+  -fx-font-size: 19px; /*Dimensione del carattere 16px per il testo personalizzato*/
+}
+
+
+                                                                                           /* INIZIO CARRELLO */
+#vBoxCartPage, #scrollPaneCart, #anchorPaneCart {
+ -fx-background-color: backgroundColor;
+}
+
+#checkOutBox {
+ -fx-background-color: boxColor;
+}
+
+
+#purchaseButton {
+ -fx-text-fill: textColor;
+ -fx-background-color: purchaseButtonColor;
+ -fx-cursor: hand;
+ -fx-font-size: 15px;
+}
+
+#purchaseButton:hover {
+ -fx-background-color: purchaseButtonColorHover;
+}
+
+#purchaseButton: active {
+ -fx-background-color: blue;
+}
+
+#arrowContinuePurchase, #continuePurchaseText{
+ -fx-cursor: hand;
+}
+
+#totalOrderText, #yourOrderText, #totalPrice1 {
+ -fx-font-size: 14px;
+}
+
+#titleCartProd1, #titleCartProd2, #titleCartProd3, #titleCartProd4, #titleCartProd5, #titleCartProd6 {
+ -fx-font-size: 30px;
+}
+
+#cartItemPriceText1, #cartItemPriceText2, #cartItemPriceText3, #cartItemPriceText4, #cartItemPriceText5, #cartItemPriceText6 {
+ -fx-font-size: 25px;
+}
+
+#totalPrice3 {
+ -fx-font-size: 15px;
+}
+
+#checkOutBox {
+ -fx-background-radius: 5px;
+}
+
+#purchaseButton: pressed {
+ -fx-scale-x: 0.95;
+ -fx-scale-y: 0.95;
+}
+
+#lessButton1: pressed , #lessButton2: pressed , #lessButton3: pressed , #lessButton4: pressed , #lessButton5: pressed , #lessButton6: pressed , #plusButton1: pressed , #plusButton2: pressed , #plusButton3: pressed , #plusButton4: pressed , #plusButton5: pressed , #plusButton6: pressed , #removeItemButton1: pressed , #removeItemButton2: pressed , #removeItemButton3: pressed , #removeItemButton4: pressed , #removeItemButton5: pressed , #removeItemButton6: pressed {
+ -fx-scale-x: 0.95;
+ -fx-scale-y: 0.95;
+}
+
+
+                                                                                           /* FINE CARELLO*/
+
+
+                                                                                           /* INIZIO LOGIN*/
+#registerNow {
+ -fx-fill: blueColor;
+}
+
+#wrongLoginText {
+ -fx-fill: #f20c0c;
+}
+
+#closeLoginScene, #registerNow, #forgotPassword, #returnHomeImage, #carDocLogoIcon{
+ -fx-cursor: hand;
+}
+
+#loginUpperPane {
+ -fx-background-color: upperBackgroundColor;
+}
+
+#loginAnchorPane {
+ -fx-background-color: backgroundColor;
+}
+
+#boxLogin {
+ -fx-background-color: boxColor;
+ -fx-background-radius: 15px;
+}
+
+                                                                                           /* FINE LOGIN*/
+
+
+
+                                                                                       /* INIZIO HOMEPAGE BOX */
+
+
+#bottomBoxPage {
+ -fx-background-color: upperBackgroundColor;
+}
+
+#privacyInformation, #generalCondition{
+ -fx-fill: white;
+}
+
+#privacyInformation:hover, #generalCondition:hover{
+ -fx-cursor: hand;
+ -fx-font-size: 11px;
+}
+
+#vBoxProduct1, #vBoxProduct2, #vBoxProduct3, #vBoxProduct4, #vBoxProduct5, #vBoxProduct6, #vBoxProduct7, #vBoxProduct8, #vBoxProduct9, #vBoxProduct10, #vBoxProduct11, #vBoxProduct12, #vBoxProduct13, #vBoxProduct14, #vBoxProduct15 {
+ -fx-background-color: vBoxColor;
+ -fx-background-radius: 10px;
+
+}
+
+#hBox1, #hBox2, #hBox3, #totalBox {
+ -fx-background-color: backgroundColor;
+}
+
+
+
+                                                                                           /* FINE HOMEPAGE BOX */
+
+                                                                                           /* INIZIO BOX PAGE */
+
+#totalVboxBoxPage, #scrollPaneBoxPage {
+ -fx-background-color: backgroundColor;
+}
+
+#vBoxProduct1:hover, #vBoxProduct2:hover, #vBoxProduct3:hover, #vBoxProduct4:hover, #vBoxProduct5:hover, #vBoxProduct6:hover, #vBoxProduct7:hover, #vBoxProduct8:hover, #vBoxProduct9:hover, #vBoxProduct10:hover, #vBoxProduct11:hover, #vBoxProduct12:hover, #vBoxProduct13:hover, #vBoxProduct14:hover, #vBoxProduct15:hover{
+ -fx-cursor: hand;
+}
+
+#titleText1, #titleText2, #titleText3, #titleText4, #titleText5, #titleText6, #titleText7, #titleText8, #titleText9, #titleText10, #titleText11, #titleText12, #titleText13, #titleText14, #titleText15, #priceText1, #priceText2, #priceText3, #priceText4, #priceText5, #priceText6, #priceText7, #priceText8, #priceText9, #priceText10, #priceText11, #priceText12, #priceText13, #priceText14, #priceText15 {
+ -fx-font-size: 20px;
+}
+
+#sellerText1, #sellerText2, #sellerText3, #sellerText4, #sellerText5, #sellerText6, #sellerText7, #sellerText8, #sellerText9, #sellerText10, #sellerText11, #sellerText12, #sellerText13, #sellerText14, #sellerText15 {
+ -fx-font-size: 11px;
+}
+
+
+                                                                                           /* FINE BOX PAGE */
+
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color : backgroundColor;
+    -fx-border-color :transparent;
+    -fx-background-radius : 0.0em;
+    -fx-border-radius :2.0em;
+    -fx-padding :0.0 10.0 0.0 0.0;
+}
+
+.scroll-bar:horizontal .increment-button ,
+.scroll-bar:horizontal .decrement-button {
+    -fx-background-color :transparent;
+    -fx-background-radius : 0.0em;
+    -fx-padding :0.0 0.0 10.0 0.0;
+
+}
+
+.scroll-bar:vertical .increment-button ,
+.scroll-bar:vertical .decrement-button {
+    -fx-background-color :transparent;
+    -fx-background-radius : 0.0em;
+    -fx-padding :0.0 10.0 0.0 0.0;
+}
+
+ .scroll-bar .increment-arrow,
+ .scroll-bar .decrement-arrow{
+    -fx-shape : " ";
+    -fx-padding :0.15em 0.0;
+}
+
+ .scroll-bar:vertical .increment-arrow,
+ .scroll-bar:vertical .decrement-arrow{
+    -fx-shape : " ";
+    -fx-padding :0.0 0.15em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color :derive(scrollBarColor, 10.0%);
+    -fx-background-insets : 2.0, 0.0, 0.0;
+    -fx-background-radius : 2.0em;
+}
+
+.scroll-bar:horizontal .thumb:hover,
+.scroll-bar:vertical .thumb:hover {
+    -fx-background-color :derive(scrollBarHover, 10.0%);
+    -fx-background-insets : 2.0, 0.0, 0.0;
+    -fx-background-radius : 2.0em;
+}
